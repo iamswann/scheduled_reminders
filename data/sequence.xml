@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <!--Adding New Sequence For A Field-->
+    <!--  https://www.youtube.com/watch?v=ZfKzmfiqeg0&list=PLqRRLx0cl0hoJhjFWkFYowveq2Zn55dhM&index=8  -->
+    <data noupdate="1">
+        <!-- Sequences for hospital.patient -->
+        <record id="seq_reminder" model="ir.sequence">
+            <field name="name">Reminder Sequence</field>
+            <field name="code">reminder.sequence</field>
+            <field name="prefix">RM</field>
+            <field name="padding">3</field>
+        </record>
+
+    </data>
+</odoo>
